@@ -113,7 +113,7 @@ while True:
             # BLUE
             elif fingers == [0,1,1,0,0]:
 
-                if current_time - last_gesture_time > gesture_delay::
+                if current_time - last_gesture_time > gesture_delay:
                     draw_color = (255,0,0)
                     last_gesture_time = current_time
 
